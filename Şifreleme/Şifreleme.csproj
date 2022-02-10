@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="NCiphers.Crypto">
+      <HintPath>..\..\..\..\NCiphers.Crypto 1.2\Bin\NCiphers.Crypto.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
